@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E7162HSerailQRcode2DScanTest</string>
+    <string name="about_msg">E7162HSerailQRcode2DScanTest-Demo v1.0\n
+\n
+This program is the sample application provided with project android-serialport-api.\n
+\n
+More information and bug report on [http://code.google.com/p/android-serialport-api]\n
+\n
+Copyright 2010-2011 Cedric Priscal\n
+\n
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at\n
+\n
+http://www.apache.org/licenses/LICENSE-2.0\n
+\n
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.\n</string>
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial
+		port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+    <string name="str_open">Open</string>
+    <string name="str_close">Close</string>
+    <string name="str_light_on">Light on</string>
+    <string name="str_light_off">Light off</string>
+    <string name="str_poweron">Power on</string>
+    <string name="str_poweroff">Power off</string>
+    <string name="str_3v3_5v_txt">POGO:3V3 VBat and 5V VBus</string>
+    <string name="str_5v_txt">POGO:5v VBus</string>
+    <string name="str_3v3_txt">POGO:3v3 VBus</string>
+    <string name="str_pin10_txt">POGO:pin 10</string>
+    <string name="str_pin11_txt">POGO:pin 11</string>
+    <string name="str_pin12_txt">POGO:pin 12,Interruption detection</string>
+    <string name="str_pin12_dection_result">Pin12 detection result:</string>
+    <string name="str_pull_high">Pull up</string>
+    <string name="str_pull_low">Pull down</string>
+    <string name="str_start_check">Detection</string>
+    <string name="str_stop_check">To low</string>
+    <string name="function_scan">QRCode scan</string>
+    <string name="function_test">POGO test</string>
+    <string name="close_power">Close scan module</string>
+    <string name="str_show_scan_result">Count usb scanning success: </string>
+    <string name="str_select_uart_dev">Select the uart device:</string>
+    <string name="str_show_scan_state">State:</string>
+    <string name="str_connect_failed">Connect device failed </string>
+    <string name="str_connect_success">Connect device success </string>
+    <string name="str_start_scan">Start scan</string>
+    <string name="str_scanning">Scanning...</string>
+    <string name="str_scan_success">Scan success</string>
+    <string name="str_scan_failed">...</string>
+    <string name="str_scan_error">Scan error with some exception</string>
+    <string name="str_no_device">There is no actual device</string>
+    <string name="str_open_qrscan">Open QRScan</string>
+    <string name="str_close_qrscan">Close QRScan</string>
+    <string name="str_qrscan_description">If you need to use UniStrong USB 2-D code scanning, please click on the Open/Close Settings interface.</string>
+    <string name="str_scan_qrscan">Scan</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_continuous_scan_start">Continuous scan start</string>
+    <string name="str_continuous_scan_stop">Continuous scan stop</string>
+    <string name="str_milliseconds">"1~30000 milliseconds"</string>
+    <string name="str_set_timeout">Set timeout</string>
+    <string name="str_status_lable">Serail barcode test,\t\t Status:\n</string>
+    <string name="str_open_success">Open success</string>
+    <string name="str_already_opened">Already opened</string>
+    <string name="str_open_failed">Open failed</string>
+    <string name="str_not_opened">Not Opened</string>
+    <string name="str_scan_scaning">Scaning..</string>
+    <string name="str_scan_finished">Scan finish</string>
+    <string name="str_timeout_outrange">Input out of range</string>
+    <string name="str_timeout_failed">Set time out failed</string>
+    <string name="str_timeout_success">Set time out success</string>
+    <string name="str_close_success">Close success</string>
+    <string name="input_out_range_tips">number is out of range ,please input numner between 1~30000</string>
+</resources>

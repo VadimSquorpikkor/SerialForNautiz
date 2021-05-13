@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unistrong.ee7162HU"
+    android:versionCode="123"
+    android:versionName="1.2.3">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:icon="@drawable/barcode_scanne_72"
+        android:label="@string/app_name"
+        android:vmSafeMode="false">
+        <activity
+            android:name="com.unistrong.ee7162HU.QRScan.ScanSettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.unistrong.qrcode.ScanBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.KEY_EVENT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_ENABLE" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

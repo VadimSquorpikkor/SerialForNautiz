@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.8"
+        android:text="3V3 VBat和5v VBu"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_normal_height"
+        android:layout_weight="0.1"
+        android:text="@string/str_open"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_normal_height"
+        android:layout_weight="0.1"
+        android:text="@string/str_close"
+        android:textSize="14sp" />
+
+</LinearLayout>

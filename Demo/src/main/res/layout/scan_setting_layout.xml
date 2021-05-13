@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_light" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingLeft="5dp"
+            android:text="@string/str_status_lable"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp">
+
+        <Button
+            android:id="@+id/btn_poweron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/str_poweron" />
+
+        <Button
+            android:id="@+id/btn_light_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_shape"
+            android:text="@string/str_light_on" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp">
+
+        <Button
+            android:id="@+id/scan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/str_scan_qrscan" />
+
+        <Button
+            android:id="@+id/btn_continuous_scan_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/str_continuous_scan_start" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp">
+
+
+        <EditText
+            android:id="@+id/et_timeout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:hint="@string/str_milliseconds"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#696969" />
+
+
+        <Button
+            android:id="@+id/btn_set_timeout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/str_set_timeout" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_show_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lines="5"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
