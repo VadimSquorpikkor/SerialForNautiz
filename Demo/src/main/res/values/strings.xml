@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">E7162HSerailQRcode2DScanTest</string>
+    <string name="app_name">SerialForNautiz</string>
     <string name="about_msg">E7162HSerailQRcode2DScanTest-Demo v1.0\n
 \n
 This program is the sample application provided with project android-serialport-api.\n

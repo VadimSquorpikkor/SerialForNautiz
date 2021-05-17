@@ -31,4 +31,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation files('libs/SerailScanSDK_v1.2.6_2019.03.12.jar')
+
+    implementation 'com.handheldgroup.tools:serialport:1.5.0'
 }
